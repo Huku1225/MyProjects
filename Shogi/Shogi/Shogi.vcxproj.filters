@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Piece">
+      <UniqueIdentifier>{386d0559-df23-4dba-906b-3c6438a7aeb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Draw">
+      <UniqueIdentifier>{e6a600e0-4808-46a0-bfa8-eddea068b277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Input">
+      <UniqueIdentifier>{a8d288a3-9b54-4276-be1f-6ffbd1bc0430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ShogiBoard">
+      <UniqueIdentifier>{b5a91e26-dafc-42d7-84ee-27ca239d3e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{241c4385-d61d-44d2-bb61-5fa2b3dfe190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ShogiGame">
+      <UniqueIdentifier>{e9127e8e-7c85-4d9b-bf3e-b1dd267e1551}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ShogiGame\ShogiGame.cpp">
+      <Filter>ソース ファイル\ShogiGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ShogiBoard\ShogiBoard.cpp">
+      <Filter>ソース ファイル\ShogiBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player\PlayerBase.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player\Player2.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player\Player1.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\GoldGeneralPiece.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\GoldGeneralPiece2.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\KingPiece.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\KingPiece2.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\KnightPiece.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\KnightPiece2.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\PawnPiece.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\PawnPiece2.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\PieceBase.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Piece\PieceData.cpp">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Input.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\Drawer.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Definition.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ShogiGame\ShogiGame.h">
+      <Filter>ソース ファイル\ShogiGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ShogiBoard\ShogiBoard.h">
+      <Filter>ソース ファイル\ShogiBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player\PlayerBase.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player\Player2.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player\Player1.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\GoldGeneralPiece.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\GoldGeneralPiece2.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\KingPiece.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\KingPiece2.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\KnightPiece.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\KnightPiece2.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\PawnPiece.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\PawnPiece2.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\PieceBase.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Piece\PieceData.h">
+      <Filter>ソース ファイル\Piece</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Input.h">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw\Drawer.h">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

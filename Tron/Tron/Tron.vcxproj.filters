@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{cfa43589-92e7-4b78-a8ad-4823af408f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Draw">
+      <UniqueIdentifier>{020c73c5-870b-4ee2-b207-a4f7b838b02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\GameMap">
+      <UniqueIdentifier>{d8fbd12b-ed97-4c04-9fe0-6bee27302f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Input">
+      <UniqueIdentifier>{488ced5d-304d-4695-a89f-7c1e703e3d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\TronGame">
+      <UniqueIdentifier>{2f86625f-0cf4-4fb8-aca7-a03f87bf8b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Character">
+      <UniqueIdentifier>{b7fb4e43-e6de-4068-94f8-e45e0f396b60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\DrawerBase.cpp">
+      <Filter>Src\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\TronDrawer.cpp">
+      <Filter>Src\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\DrawerManager.cpp">
+      <Filter>Src\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Input.cpp">
+      <Filter>Src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\CharacterBase.cpp">
+      <Filter>Src\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Player.cpp">
+      <Filter>Src\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy.cpp">
+      <Filter>Src\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameMap\GameMap.cpp">
+      <Filter>Src\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TronGame\TronGame.cpp">
+      <Filter>Src\TronGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Draw\DrawerBase.h">
+      <Filter>Src\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw\TronDrawer.h">
+      <Filter>Src\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw\DrawerManager.h">
+      <Filter>Src\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Definition.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Input.h">
+      <Filter>Src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\CharacterBase.h">
+      <Filter>Src\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Player.h">
+      <Filter>Src\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy.h">
+      <Filter>Src\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameMap\GameMap.h">
+      <Filter>Src\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TronGame\TronGame.h">
+      <Filter>Src\TronGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

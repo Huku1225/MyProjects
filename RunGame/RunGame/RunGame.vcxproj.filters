@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{3646f76a-37af-495f-899c-ad21b4b22254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Draw">
+      <UniqueIdentifier>{1a145e01-c23b-4c19-b649-5f4099c1c0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Input">
+      <UniqueIdentifier>{e67278ba-8635-47cf-8f20-9412cb2abb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\GameMap">
+      <UniqueIdentifier>{2a579c3b-4aaa-43b5-8431-a0a24188c0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Player">
+      <UniqueIdentifier>{8cbd1d36-5f94-4609-892d-1e327d335783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\RunGame">
+      <UniqueIdentifier>{71623a88-f9b7-48f9-bd84-df5468767daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\FrameCounter">
+      <UniqueIdentifier>{c2ac43e4-0a8b-40a3-84dd-82bf44f85775}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Input.cpp">
+      <Filter>Src\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\DrawerBase.cpp">
+      <Filter>Src\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\RunGameDrawer.cpp">
+      <Filter>Src\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\DrawerManager.cpp">
+      <Filter>Src\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RunGame\RunGame.cpp">
+      <Filter>Src\RunGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameMap\GameMap.cpp">
+      <Filter>Src\GameMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Player\Player.cpp">
+      <Filter>Src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FrameCounter\FrameCounter.cpp">
+      <Filter>Src\FrameCounter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Input\Input.h">
+      <Filter>Src\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw\DrawerManager.h">
+      <Filter>Src\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw\DrawerBase.h">
+      <Filter>Src\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Definition.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw\RunGameDrawer.h">
+      <Filter>Src\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameMap\GameMap.h">
+      <Filter>Src\GameMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RunGame\RunGame.h">
+      <Filter>Src\RunGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Player\Player.h">
+      <Filter>Src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FrameCounter\FrameCounter.h">
+      <Filter>Src\FrameCounter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
